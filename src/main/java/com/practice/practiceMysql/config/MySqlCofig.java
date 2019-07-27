@@ -14,7 +14,7 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@Configuration
+//@Configuration
 @PropertySource(value = "classpath:/${spring.profiles.active}/app.properties")
 @EnableTransactionManagement
 @ComponentScan("com.practice")

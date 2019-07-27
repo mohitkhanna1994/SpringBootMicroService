@@ -14,7 +14,7 @@ import com.practice.practiceMysql.model.StudentObj;
 public interface StudentService {
 
 	@CrossOrigin
-	@RequestMapping(value="/getAllStudents",consumes = "application/json",produces = "application/json", method = {RequestMethod.GET})
+	@RequestMapping(value="/getAllStudents",produces = "application/json", method = {RequestMethod.GET})
 	@ResponseBody
 	public List<StudentObj> getAllStudents() throws StudentServiceException;
 	

@@ -1,5 +1,6 @@
 package com.practice.practiceMysql.dao.impl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.transaction.Transactional;
@@ -18,33 +19,37 @@ import com.practice.practiceMysql.model.StudentObj;
 @Transactional
 public class StudentDaoImpl implements StudentDao {
 
-	@Autowired
-	private SessionFactory sessionFactory;
+//	@Autowired
+//	private SessionFactory sessionFactory;
 	
 	@Override
 	public List<StudentObj> getAllStudent() throws StudentServiceException{
-		List<StudentObj> students = null;
-		try {
+		List<StudentObj> students = new ArrayList<>();
+/*		try {
 		Session session = this.sessionFactory.getCurrentSession();
 		Query query =  session.getNamedQuery("findAllStudents");
 		students = query.list();
 		}catch (Exception e) {
 			throw new StudentServiceException();
 		}
+*/		
+		StudentObj obj = new StudentObj();
+		obj.setName("Mohit");
+		students.add(obj);
 		return students;
 	}
 
 	@Override
 	public String addStudent(StudentObj studentObj) throws StudentServiceException {
 		String response = "failure";
-		try {
+		/*try {
 		Session session = this.sessionFactory.getCurrentSession();
 		session.beginTransaction();
 		session.save(studentObj);
 		response = "success";
 		}catch (Exception e) {
 			throw new StudentServiceException();
-		}
+		}*/
 		return response;
 	}
 
