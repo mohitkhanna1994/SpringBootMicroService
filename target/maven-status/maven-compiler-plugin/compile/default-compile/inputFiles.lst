@@ -1,0 +1,10 @@
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\biz\StudentBiz.java
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\model\StudentObj.java
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\dao\impl\StudentDaoImpl.java
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\exception\StudentServiceException.java
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\service\StudentService.java
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\biz\impl\StudentBizImpl.java
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\controller\StudentController.java
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\dao\StudentDao.java
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\app\App.java
+E:\practiceGitRepos\SpringBootMicroService\src\main\java\com\practice\practiceMysql\config\MySqlCofig.java
